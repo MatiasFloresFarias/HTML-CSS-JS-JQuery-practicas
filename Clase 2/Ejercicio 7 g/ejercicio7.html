@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link href="css/estilo_form.css" type="text/css" rel="stylesheet" >
+    <link href="css/fuentes.css  type="text/css" rel="stylesheet" >
+
+    <style type="text/css" media="screen">
+		h1 {
+			margin-top: 0;
+		}
+		label {
+			font-size: 11px;
+			font-weight: bold;
+			text-transform: uppercase;
+			display: block;
+			margin-bottom: 3px;
+			clear: both;
+		}
+		.error {
+			background-color: #FF8080;
+		}
+		.hide {
+			display: none;
+		}
+	</style>
+</head>
+
+<body>
+    <center>
+        <h1 class="title">Formulario</h1>
+        <fieldset class="fieldset">
+            <legend class="legend">
+                <span>Datos del empleado</span>
+            </legend>
+
+            <form action="#" class="styleThese">
+                <table>
+                    <tr>
+                        <td>
+                            <label>Nombre:</label>
+                        </td>
+                        <td>
+                            <input class="texto" type="text" name="Nombre" id="Nombre" value="" placeholder="Solo texto">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Apellido:</label>
+                        </td>
+                        <td>
+                            <input class="texto" type="text" name="Apellido" id="Apellido" value="" placeholder="Solo texto">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>RUT:</label>
+                        </td>
+                        <td>
+                            <input class="texto" type="text" name="RUT" id="RUT" value="" placeholder="ejemplo:xx.xxx.xxx-x">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Edad:</label>
+                        </td>
+                        <td>
+                            <input class="texto" type="text" name="Edad" id="Edad" value="" placeholder="Solo numero">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Estado Civil</label>
+                        </td>
+                        <td>
+                            <select name="Turno" align="center">
+                                <option value="1"> Casado</option>
+                                <option value="2"> Soltero </option>
+                                <option value="3"> TViudo </option>
+                            </Select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Genero</label>
+                        </td>
+                        <td>
+                            <select name="Turno" align="center">
+                                <option value="1"> Masculino</option>
+                                <option value="2"> Femenino </option>
+                                <option value="3"> Otro </option>
+                            </Select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Tipo de locomocion</label>
+                        </td>
+                        <td>
+                            <select name="Turno" align="center">
+                                <option value="1"> Auto</option>
+                                <option value="2"> Moto </option>
+                                <option value="3"> Metro </option>
+                                <option value="4"> Taxi </option>
+                                <option value="5"> Otro </option>
+                            </Select>
+                        </td>
+                    </tr>
+                    
+                        <table>
+                            <tr><td>                          
+                                   
+                            <input  type="button" value="Enviar" onclick="window.location.href='\rrecibedatos.html'" />
+                            </td><td>                           
+                        </table>                   
+
+                </table>
+            </form>
+
+        </fieldset>
+
+
+    </center>
+
+</body>
+
+</html>
