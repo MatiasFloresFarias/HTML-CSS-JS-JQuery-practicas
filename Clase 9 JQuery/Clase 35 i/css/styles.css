@@ -1,0 +1,45 @@
+body{
+    width: 100%;
+    background-image: url("../010101110.jpg");
+    background-repeat: repeat-y;
+}
+
+#fotico {
+    width: 300px;
+    height: 200px;
+}
+
+header{
+    text-align: center;
+}
+
+a{
+    margin: 0 20%;
+    text-decoration: none;
+    color: red;
+}
+
+.row-1{
+    margin: 5% 20%;
+    align-content: center;
+    padding: 0 10%;
+}
+
+button{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20pt;
+    text-decoration: none;
+            
+}
+
+h1{
+    color: blanchedalmond;
+    padding: 2%;
+    margin: 2%;
+    border-color: blanchedalmond;
+    border-style: groove;
+    border-radius: 20pt;
+
+}

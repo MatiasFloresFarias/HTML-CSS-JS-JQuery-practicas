@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/jquery-3.5.1.js" type="text/javascript"></script>
+    <script src="./js/chart.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    
+    <title>Ejercicio 41</title>
+</head>
+<body>
+    <h2>Graficos</h2>
+    <p>Dirección Meteorológica</p>
+    
+    <div class="tab">
+      <button class="tablinks" onclick="opengrafico(event, 'Barras')">Grafico de barras</button>
+      <button class="tablinks" onclick="opengrafico(event, 'Lineas')">Grafico de lineas</button>
+      <button class="tablinks" onclick="opengrafico(event, 'Tortas')">Grafico de torta</button>
+    </div>
+    
+    <div id="Barras" class="tabcontent">
+      <h3>Grafico de barras</h3>
+      <p>Agua caida en ciudades</p>
+      <div class="graficos">
+        <canvas id="graficoBarras" ></canvas>
+      </div>
+    </div>
+    
+    <div id="Lineas" class="tabcontent">
+      <h3>Grafico de lineas</h3>
+      <p>Comparativa de agua caida hasta la fecha</p> 
+      <canvas id="graficoLineas" ></canvas>
+    </div>
+    
+    <div id="Tortas" class="tabcontent">
+      <h3>Grafico de tortas</h3>
+      <p>porcentaje de estaciones de medición
+        por cada región</p>
+        <canvas id="graficoTorta" ></canvas>
+    </div>
+
+<script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+
+body{
+    background: url("../img/bg.png");
+    
+}
+fieldset{
+    width: 60%;
+    padding: 5px;
+    margin-left: 20%;
+     
+   
+}   
+
+header h1{
+    text-align: center;
+}

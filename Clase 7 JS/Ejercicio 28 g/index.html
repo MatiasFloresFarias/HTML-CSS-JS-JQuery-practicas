@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio28</title>
+
+    <link rel="stylesheet" href="./res/css/style.css">
+
+    <script>
+        // Registro del movimiento del puntero
+        var coordenadas = [];
+        window.onmousemove = function (){
+            var x = window.event.clientX;
+            var y = window.event.clientY;
+            document.getElementById('coordactuales').innerHTML = "X: "+ x +" - Y: "+y;
+        };
+
+        // Registro de Clicks en la página
+        window.onclick = function () {
+            var p = document.createElement('p');
+            p.innerHTML = 'X: ' + window.event.clientX + ' -:- Y: ' + window.event.clientY;
+            document.getElementById('coordlista').appendChild(p);
+        };
+        
+        // Reset coordenadas
+        function resetear() {
+            document.getElementById('coordactuales').innerHTML = '';
+            document.getElementById('coordlista').innerHTML = '';
+        }
+    </script>
+</head>
+
+<body>
+    
+    <header>
+        <h1>Ejercicio 28</h1>
+        <p>Registro de coordenadas de movimiento y acción del mouse</p>
+    </header>
+    
+    <div id="coordactuales"></div>
+    <div id="coordlista"></div>
+    <input type="button" value="Resetear" onclick="resetear()">
+</body>
+
+</html>

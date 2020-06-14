@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ejercicio </title>
+  <script>
+    // var num =0;
+    // num =parseInt(num);
+
+    function enviar() {
+      let sum = 0;
+      let numeros = document.getElementById("num").value;
+
+      for (i = 0; i <= numeros; i++) {
+        sum += i;
+        // document.write(i)
+        // document.write("<br>");
+      }
+      if (sum != 0) {
+        // document.write("la suma total es " + sum);
+        document.getElementById("contenedor").innerHTML = sum;
+      } else {
+        document.getElementById("contenedor").innerHTML = "Numero no valido";
+      }
+    }
+
+
+  </script>
+</head>
+
+<body>
+  <input type="number" name="num" id="num" placeholder="Ingrese un numero">
+  <button onclick="enviar();">Aceptar</button>
+  <div id="contenedor">
+
+  </div>
+
+
+</body>
+
+</html>

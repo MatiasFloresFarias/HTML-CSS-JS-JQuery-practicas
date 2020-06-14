@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/jquery-3.5.1.js" type="text/javascript"></script>
+    <script src="./js/xlsx.core.js"></script>
+    <script src="./js/fileServer.js" type="text/javascript"></script>
+    <script src="./js/jquery.validate.js" type="text/javascript"></script>
+    <script src="./js/stable/js/tableexport.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+    <link rel="stylesheet" href="./js/stable/css/tableexport.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Ejercicio 44</title>
+</head>
+
+<body>
+    <header>
+        <h1>Ejercicio 44</h1>
+    </header>
+
+    <form id="formulario" method="POST" onsubmit="return false">
+        <fieldset>
+            <legend>Formulario de exportacion de documentos</legend>
+
+            <table id="tabla" class="tabla">
+                <tr>
+                    <td>Nombre:
+                        <td><input type="text" name="nombre" id="nombre"></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Apellido:
+                        <td><input type="text" name="apellido" id="apellido"></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Correo:
+                        <td><input type="email" name="correo" id="correo"></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Edad:
+                        <td><input type="number" name="edad" id="edad"></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Telefono:
+                        <td><input type="tel" name="telefono" id="telefono" value="+56"></td>
+                    </td>
+                </tr>
+
+            </table>
+            <input id="enviar" value="Añadir" type="submit">
+        </fieldset>
+    </form>
+
+    <table id="datatable" class="display">
+
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Correo</th>
+                <th>Edad</th>
+                <th>Telefono</th>
+            </tr>
+        </thead>
+
+        <tbody id="tbody">
+            <tr>
+                <td>Matías </td>
+                <td>Flores</td>
+                <td>matiloco@hola.cl</td>
+                <td>27</td>
+                <td>+ 569 8888 8888</td>
+            </tr>
+            <tr>
+                <td>Trinidad </td>
+                <td>Gaete</td>
+                <td>trini@hola.cl</td>
+                <td>25</td>
+                <td>+ 569 8888 8888</td>
+            </tr>
+            <tr>
+                <td>Manuel</td>
+                <td>Lillo</td>
+                <td>Manolillo@hola.cl</td>
+                <td>30</td>
+                <td>+ 569 8888 8888</td>
+            </tr>
+            <tr>
+                <td>Claudia</td>
+                <td>Lloncón</td>
+                <td>claudita@hola.cl</td>
+                <td>30</td>
+                <td>+ 569 8888 8888</td>
+            </tr>
+            <tr>
+                <td>Juan Carlos</td>
+                <td>Tolorza</td>
+                <td>juanito@hola.cl</td>
+                <td>22</td>
+                <td>+ 569 8888 8888</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+
+    <script src=" ./js/script.js "></script>
+</body>
+
+</html>

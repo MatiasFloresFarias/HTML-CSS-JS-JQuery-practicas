@@ -1,0 +1,38 @@
+*{
+    background-color: rgb(209, 218, 217);
+}
+header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: forestgreen;
+    text-align: center;
+}
+form{
+    width: 30%;
+    margin-left: 30%;
+    
+}
+#texto, #textodivisa{
+ 
+    margin: 30px;
+    width: 90%;
+    height: 30px;
+}
+.contenedorTexto{
+    width: 80%;   
+
+}
+button{
+    background-color: burlywood;
+    width: 80%;
+    height: 30px;    
+    border-radius: 90px;
+    
+}
+#resultadoDelCambio{
+    background-color: cadetblue;
+    width: 500px;
+    height: 80px;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}

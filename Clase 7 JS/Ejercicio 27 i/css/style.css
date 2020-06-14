@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+body{
+	background: url("../img/bg.png")
+}
+img{
+    border: opx;
+    padding: 0px;
+    margin: 0px;
+    border:none;
+    width: 100%;
+}
+header h1{
+	
+	font-family:'Merienda', cursive; 
+	padding:0px; 
+	text-shadow: black 2px 2px 2px;
+    color: #353434;
+    text-align: center;
+    width: 100%;       
+    margin: 0px;
+    overflow:hidden;
+}
+.fieldset {
+    
+    margin: 10px;
+    padding: 10px;
+	width: 50%;
+	background-color: #adbfc7;
+	color: #533636;
+	letter-spacing: 1px;
+	font-family:'Merienda', cursive;
+	border-radius: 10px;
+    box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.75);
+    align-content: center;
+}
+.fieldset .legend{
+    background-color: #689cd2;
+    border: 1px solid #CCCCCC;
+    font-weight: bold;
+    margin: 0 0 0 -40px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+	color: #353434;
+	letter-spacing: 1px;
+	font-family:'Merienda', cursive;
+    box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.75);
+    
+}
+td{
+	width:200px;
+	background:transparent;
+	vertical-align: top;
+	text-align:left;
+	padding: 3px;
+}
+input{
+	width:165px;
+	display: block;
+}		
+select {
+	width: 140px;
+}

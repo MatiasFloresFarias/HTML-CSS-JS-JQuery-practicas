@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 21</title>
+    <script>
+
+
+
+        function enviar(){
+            let texto=document.getElementById("texto").value;   
+            let cantidad= texto.length; 
+
+            textodividido = texto.split(" ");
+            numeroPalabras = textodividido.length;
+
+            let primertexto = texto; 
+            primer = primertexto.split(' ') [0];
+
+            ultimoArray = primertexto.split(' '); 
+            ultimo = ultimoArray[ultimoArray.length -1];
+
+            textoreversa=primertexto.split('').reverse().join('')
+
+            textolimpio=primertexto.trim();
+            
+            textoprevera =textolimpio.split('').reverse().join('').trim()
+
+            
+
+            document.write(
+                "La palabra es: " + texto +
+                "<br/> La cantidad de letra es: " + cantidad +
+                "<br/> La cantiad de palabras son " + numeroPalabras +
+                "<br/> La primera palabras es: " + primer +
+                "<br/> La ultima palabras es: " + ultimo +
+                "<br/> La palabra inversa es : " + textoreversa + 
+                "<br/> La palabra completa inversa s " + textoprevera
+                
+                )
+        }
+        
+    </script>
+</head>
+<body>
+    <div class="contenedor">
+        <input type="text" name="texto" id="texto">
+        <button onclick="enviar();">Enviar datos</button>
+
+
+    </div>
+
+</body>
+</html>

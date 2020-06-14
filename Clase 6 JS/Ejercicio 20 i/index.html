@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 20</title>
+    <script src="js/js.js"></script>
+</head>
+<!-- <body>
+    <h1>Fecha Actual</h1>
+    <input type="text" id="fechaActual" value="" >
+
+   Al iniciar la pagina, ejecutamos la funcion -->
+
+<body onload="countDown();"> 
+    <form name="formactual">
+        <h1>Fecha Actual</h1>
+        <h1 id="date"></h1>
+        <input type="text" size="5" class="form_input" name="yearactual" disabled> año actual <br>
+        <input type="text" size="5" class="form_input" name="monthactual" disabled> mes actual <br>
+        <input type="text" size="5" class="form_input" name="dayactual" disabled> dia actual <br>
+        <button onclick="fecha();">Mostrar fecha de hoy</button>
+
+        
+    </form>
+
+    <!--formulario deshabilitado donde se muestran los datos-->
+    <form name="form" >
+
+        <h1>Tiempo que falta hasta el fin del año 2020.</h1>
+        <input type="text" size="5" class="form_input" name="year" disabled> años<br>
+        <input type="text" size="5" class="form_input" name="month" disabled> meses<br>
+        <input type="text" size="5" class="form_input" name="day" disabled> dias<br>
+        <input type="text" size="5" class="form_input" name="hour" disabled> horas<br>
+        <input type="text" size="5" class="form_input" name="minute" disabled> minutos<br>
+        <input type="text" size="5" class="form_input" name="second" disabled> segundos<br>
+    </form>
+
+
+</body>
+
+</html>

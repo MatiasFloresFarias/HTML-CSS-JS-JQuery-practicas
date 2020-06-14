@@ -1,0 +1,185 @@
+/* general */
+HTML{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #d2d2d2;
+    
+}
+
+/* body */
+
+body{
+    background-color: #fff;    
+    min-height: 100vh;    
+    width: 900px;
+    margin: 30px auto;
+    padding: 10;    
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+}
+
+/* main */
+main {
+    width: 80%;  
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+/* titulo */
+header {
+    font-family: monospace;    
+    color: cadetblue;      
+}
+/* contenedor de modulos con la estructura */
+section{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;   
+}
+
+/* modulo datos personas */
+.datospersonales{
+    background-color: rgb(243, 241, 240);
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.datospersonales ul li {
+    list-style-type: none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+/* modulo datos academicos */
+.datosacademicos{
+    background-color: rgb(236, 241, 228);
+    padding: 10px;
+    border-radius: 10px;
+    width: 47%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.datosacademicos ul li {
+    list-style-type: none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+/* modulo datos laborales */
+.datoslaborales{
+    background-color: rgb(200, 238, 206);
+    padding: 10px;
+    border-radius: 10px;
+    width: 47%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.datoslaborales h1{
+    color: darkcyan;
+}
+.datoslaborales ul li {
+    list-style-type: none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+/* modulo datos referencia */
+.datosreferencias{
+    background-color: rgb(200, 216, 238);
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.datosreferencias ul li{
+    list-style-type: none;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.datosreferencias h1{
+    color: darkolivegreen;
+
+}
+ /* imagen */
+ .imagen img{
+    height: 250px;
+    width: 50%;  
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+    
+ }
+ @media screen and (max-width: 1200) {
+    main {
+        width: 90%;
+    }
+
+    .imagen {
+        width: 90%;
+    }
+    
+
+    .datosacademicos {
+        width: 48%;
+        
+    }
+
+    .datospersonales {
+        width: 48%;
+        margin-top: 0;
+        
+    }
+    .datoslaborales {
+        width: 48%;
+        margin-top: 0;
+        
+    }
+    .datosreferencias {
+        width: 48%;
+        
+    }
+}
+/* resoponcive 800px */
+@media screen and (max-width: 800px) {
+    main {
+        width: 90%;
+    }
+
+    .imagen {
+        width: 90%;
+    }
+
+    .datosacademicos {
+        width: 48%;
+        
+    }
+
+    .datospersonales {
+        width: 48%;
+        margin-top: 0;
+        
+    }
+    .datoslaborales {
+        width: 48%;
+        margin-top: 0;
+        
+    }
+    .datosreferencias {
+        width: 48%;
+        
+    }
+}
+
+

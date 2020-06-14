@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 17</title>
+    <link rel="stylesheet" href="Ejercicio17.css" />
+    <script src="Ejercicio17.js"></script>
+</head>
+<body onload="buscarniniciofin();">
+   <table>
+       <tr>
+           <td id="c1" onclick="cambiarcolor(this);"></td>
+           <td id="c2" onclick="cambiarcolor(this);"></td>
+           <td id="c3" onclick="cambiarcolor(this);"></td>
+           <td id="c4" onclick="cambiarcolor(this);"></td>
+           <td id="c5" onclick="cambiarcolor(this);"></td>
+       </tr>
+       <tr>
+            <td id="c6" onclick="cambiarcolor(this);"></td>
+            <td id="c7" onclick="cambiarcolor(this);"></td>
+            <td id="c8" onclick="cambiarcolor(this);"></td>
+            <td id="c9" onclick="cambiarcolor(this);"></td>
+            <td id="c10" onclick="cambiarcolor(this);"></td>
+       </tr>
+       <tr>
+        <td id="c11" onclick="cambiarcolo

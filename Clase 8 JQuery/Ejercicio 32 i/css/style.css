@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Metal+Mania&family=Poppins:wght@600&display=swap');
+
+*{
+    font-family: 'Metal Mania', cursive;
+    background-color: rgb(231, 230, 224);
+    margin-left: 8%;
+}
+.col{
+    padding: 10px;
+    margin: 5px;    
+
+}
+.col textarea{
+    width: 80%;
+}
+

@@ -1,0 +1,21 @@
+- abro la consola bash  en el directorio donde creare el repositorio.-
+- en el caso de no estar en la carpeta me dirigo  a ella con los comando cd..
+- creo la carpeta 
+- reviso el estado con git status 
+- (en el caso  de no tener viculada su cuenta de github o gitlab registrarla con el comando 
+$ git config --global user.name 
+- si no esta iniciado  el reposocitorio lo creo con git init  
+- reviso el estado  git status 
+- agrego los documentos con git add "nombre" o en el caso de ser la carpeta completa  con  git add. 
+- luego lo  vicunculo  con los datos que me entregaria  el repositorio creado en git  
+-  y luego genero el el commit con git commit puedo poner -m y el mensaje 
+-reviso el estado de mi commit 
+- genero el push para subir los datos con git push -u origin master
+- modifico  el el documento, y agrego el valor Módulo 4: Desarrollo de
+aplicaciones web dinámicas con Java”
+- reviso nuevamente el estado  git status  
+- agrego los cambios con un commit  agregando el mensaje 
+-reviso los cambios realizados en la historia  con git log o revisar las diferencias entre los docuementos con 
+git diff o git checkout para borrar los cambios-.
+
+

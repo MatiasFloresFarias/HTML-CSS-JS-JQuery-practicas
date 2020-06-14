@@ -1,0 +1,27 @@
+html {
+    height: 80%;
+}
+
+body {
+    background: rgb(150, 174, 197);
+    margin: 0 em;
+    padding: 0em;
+    text-align: center;
+    height: 100%;
+    width: 80%;
+}
+
+#contenedor {
+    padding: 1em;
+    border: 0.5em solid;
+    background-color: lightblue;
+    margin: 1em 1em 1em 1em;
+    height: auto;
+    width: 100%;
+}
+
+#foto {
+    width: 100%;
+    height: auto;    
+    position: relative;
+}

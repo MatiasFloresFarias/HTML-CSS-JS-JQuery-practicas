@@ -1,0 +1,16 @@
+.contenedor {
+    width: 550px;
+    height: 190px;
+    margin: 0 auto;
+  }
+  
+  #color {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+  }

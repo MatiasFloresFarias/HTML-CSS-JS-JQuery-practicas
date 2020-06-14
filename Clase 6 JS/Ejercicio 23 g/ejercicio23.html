@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 23</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+
+
+        var texto = document.getElementById("texto");
+        function enviar() {
+            if (document.contenedorRadio.seleccion[0].checked) {
+                var p = document.createElement('p');
+                p.innerHTML = document.getElementById('texto').value
+                document.getElementById('contenedorA').appendChild(p);
+            }
+            if (document.contenedorRadio.seleccion[1].checked) {
+                var p = document.createElement('p');
+                p.innerHTML = document.getElementById('texto').value;
+                document.getElementById('contenedorB').appendChild(p);
+            }
+        }
+    </script>
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Sistema de contenedores de texto en js</h1>
+        <p>selecciona un boton para guardar el texto en una seccion</p>
+    </header>
+    <div class="contenedor">
+        <div id="contenedorA"> Contenedor A</div>
+        <div id="contenedorB"> Contenedor B </div>
+
+        <form name="contenedorRadio">
+            <input type="text" placeholder="Ingrese texto..." id="texto">
+            <br>
+            <br>
+            <input type="radio" name="seleccion" value="1">Seleccion A
+            <input type="radio" name="seleccion" value="2">Seleccion B
+            <br>
+            <br>
+            <div>
+                <button id="boton" onclick="enviar(); " type="button">Enviar Datos</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

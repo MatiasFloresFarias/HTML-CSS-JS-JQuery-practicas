@@ -1,0 +1,27 @@
+
+body{
+    background-color: darkgray;
+}
+table{
+    
+    padding-left: 40%;
+    padding-right: 40%;
+
+}
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: darkorchid;
+}
+
+
+td{
+    width: 50px;
+    height: 50px;     
+    vertical-align: top;
+    border: 1px solid #000;
+
+}
+td:hover{
+    background-color: rgb(181, 211, 128);
+}

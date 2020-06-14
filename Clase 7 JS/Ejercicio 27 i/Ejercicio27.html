@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 27</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/funciones.js"></script>
+    <style>
+        h1 {
+            margin-top: 0;
+        }
+
+        label {
+            font-size: 11px;
+            font-weight: bold;
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 3px;
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+    <center>
+        <header>
+            <h1>Formulario de alumno</h1>
+        </header>
+
+        <fieldset class="fieldset">
+            <legend class="legends">Registro de alumno</legend>
+
+            <form action="" method="post" name="Registro" enctype="multipart/form-data">
+                <table>
+                    <tr>
+                        <td>
+                            <label>Nombre:</label>
+                        </td>
+                        <td>
+                            <input type="text" class="texto" name="Nombre" placeholder="Min 5, Max 30 Caracteres">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Apellido:</label>
+                        </td>
+                        <td>
+                            <input type="text" class="texto" name="Apellido" placeholder="Max 30 caracteres">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Fecha de Nacimiento:</label>
+                        </td>
+                        <td>
+                            <input type="date" class="time" name="FechaDeNacimiento" placeholder="DD-MM-YYYY">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Telefono:</label>
+                        </td>
+                        <td>
+                            <input type="text" class="texto" name="Telefono" placeholder="Min 7, Max 12 caracteres">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Nivel Educacional:</label>
+                        </td>
+                        <td>
+                            <select name="Estudio">
+                                <option value="1">Basica</option>
+                                <option value="2">Primero Medio</option>
+                                <option value="3">Segundo Medio</option>
+                                <option value="4">Tercero Medio</option>
+                                <option value="5">Cuarto Medio</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Direccion:</label>
+                        </td>
+                        <td>
+                            <input type="text" class="texto" name="Direccion" placeholder="maximo 100 caracteres">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Ciudad:</label>
+                        </td>
+                        <td>
+                            <input type="text" class="texto" name="Ciudad" placeholder="Maximo 30 caracteres">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Region:</label>
+                        </td>
+                        <td>
+                            <select name="Region">
+                                <option value="1">1 region</option>
+                                <option value="2">2 region</option>
+                                <option value="3">3 region</option>
+                                <option value="4">4 region</option>
+                                <option value="5">5 region</option>
+                                <option value="6">6 region</option>
+                                <option value="7">7 region</option>
+                                <option value="8">8 region</option>
+                                <option value="9">9 region</option>
+                                <option value="10">10 region</option>
+                                <option value="11">11 region</option>
+                                <option value="12">12 region</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <table>
+                            <tr>
+                                <td>
+                                    <input type="reset" value="Limpiar Registro" />
+
+                                </td>
+                                <td>
+                                    <input type="button" value="Enviar Formulario" onclick="validar()" />
+                                </td>
+                            </tr>
+                        </table>
+                    </tr>
+
+                </table>
+
+            </form>
+        </fieldset>
+    </center>
+</body>
+
+</html>

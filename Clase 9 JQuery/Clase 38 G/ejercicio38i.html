@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 38</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="jquery-validation-1.19.2/dist/jquery.validate.js"></script>
+</head>
+<body>
+    <header><h1>Tienda de Ropa</h1></header>
+
+    <fieldset>
+        <legend>Formulario de articulo</legend>
+        <form id="formulario" method="POST">
+            <table>
+                <tr>
+                    <td>Nombre:
+                    <td class="form-group "><input type="text" name="nombre" id="nombre"></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Marca:
+                    <td class="form-group "><input type="text" name="marca" id="marca"></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Stock:
+                    <td class="form-group "><input type="number" name="stock" id="stock"></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Estado:
+                    <td><select name="estado" id="estado">
+                            <option value=""></option>
+                            <option value="1">Bueno</option>
+                            <option value="2">Regular</option>
+                            <option value="3">Malo</option>
+                        </select></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Color:
+                    <td class="form-group "><input type="number" name="color" id="color"></td>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" value="Enviar Datos" id="boton">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+    </form>
+  
+    
+    <script src="js/js.js"></script>
+</body>
+
+</html>
